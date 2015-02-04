@@ -1,7 +1,7 @@
 {
-  "name": "MGT645-HW-2",
+  "name": "Team-Asa, Project-Report",
   "version": "0.0.0",
-  "description": "Getting started with Node.js and the C9 IDE",
+  "description": "Weekly updated project report, complete with GitHub version control. Bam.",
   "main": "server.js",
   "dependencies": {
     "express": "^4.9.5",
@@ -12,6 +12,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "Kyle Jensen",
+  "author": "Anthony Nichols & Kyle Jensen",
   "license": "ISC"
 }
