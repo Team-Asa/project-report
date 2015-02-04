@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(request, response){
-    response.send('index.html');
+    response.render('index.html');
 });
 
 app.listen(process.env.PORT || 4000);
