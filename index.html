@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<img src="http://i.imgur.com/j8H9l6i.png">
+<img src="http://i.imgur.com/h1UMGkx.png">
 <p align="right"><a href="mailto:anthony.nichols@yale.edu">Anthony Nichols</a>
 </br>
 <a href="mailto:stephen.hemenway@yale.edu">Stephen Hemenway</a>
@@ -9,33 +9,39 @@
 </p>
 <p align="center"><strong>
 <h1> Team Asa </h1>
-<h2>Project Status Report: Sprint 2</h2>
-<h3>February 10, 2015</h3>
+<h2>Project Status Report: Sprint 3</h2>
+<h3>February 18, 2015</h3>
 <p><em> Look at us using github and version control and stuff.</em> </p>
-<img src="http://i.imgur.com/ZLAPHVN.png"></a>
+<h3>Charts</h3>
+<img src="http://i.imgur.com/pkllqJU.png"></a>
 <h3>Sprint Complete Stories</h3>
 <ol>
-    <li>Footer links (1)</li>
-    <li>Create events page (21)</li>
-    <li>Validation for create events page (34)</li>
-    <li>Make events links (1)</li>
-    <li>Make team logo (13)</li>
-    <li>Add logo to main pages (8)</li>
-    <li>Add details to about page (3)</li>
-    <li>Make API (5)</li>
-    <li>Make API searchable (3)</li>
-    <li>Add Google analytics code (5)</li>
+    <li>Clean up event details page (5)</li>
+    <li>Add donation link (8)</li>
+    <li>Add RSVP link (3)</li>
+    <li>Google Analytics (21)</li>
+    <li>Custom CSS for all pages (55)</li>
+    <li>Change about page pictures (1)</li>
+    <li>Donate link analytics (13)</li>
+    <li>Polishing (21)</li>
 </ol>
-<p>Our priority for this sprint was to add functionality to many of our pages. Of primary concern was our “events page” and “create event” page. Anoj and Anthony worked on the user interface-side by adding the necessary HTML/CSS components while Steve worked on the back-end validation testing. The HTML/CSS portion was pretty straightforward and we were able to get that up and running with minimal struggle. The validation testing, however, was more of a trial-and-error process with bug fixes sprinkled throughout. Finishing these two components and putting it together to form a functional page was by far the most gratifying part of this sprint. </p>
-<p>After handling the larger stories, Steve and Anoj trimmed away at our backlog by switching our focus to smaller stories. These stories added significant detail to our website and provided fluidity to the user interface, such as with the footer and event links and about page content. Anthony, on the other hand, switched to graphic design mode and put together several great iterations of our team logo. After incorporating comments the team as a whole made, we decided on a final logo. Finally made the API and made sure it was searchable, all thanks to the videos on the class website. We used a similar approach with the Google analytics.</p>
-<p>All in all, we are extremely satisfied with the progress made (and the number of tests we were passing) during this sprint.</p>
-<h3>Product Backlog</h3>
-<ol>
-    <li>Visit Office Hours to learn how to create functionality for automatically generating event pages (events/0, etc.)</li>
-    <li>Create functionality for automatically generating event pages. (events/0)</li>
-    <li>Create A/B testing donation links.</li>
-    <li>Utilize data from Google Analytics to determine the most effective manner to increase donations.</li>
-    <li>Add customized CSS using style tags in the head of HTML files in order to prevent failure of Bootstrap CSS tasks while still creative a more fluid and attractive user experience.</li>
-</ol>
-<p>Our final sprint focuses first on finishing the remainder of the original project parameters—likely utilizing office hours on the sections that have given us the most trouble. We will then move to addressing the remainder of the curveball task that was brought to our attention during sprint 2. Finally, we plan to spend the remaining time working on non-essential CSS customization that will take our site from a bare bones experience to a much more attractive and user-friendly one.</p>
+<p>Our priorities for this sprint was to 1) incorporate Google analytics and A/B testing, 2) tie up loose ends of the website, and 3) make our website pretty. Steve handled much of the analytics and will talk about that more in the analytics section below. As for loose ends on the website, there were many pages that were missing small page and had unwanted elements. To make this process easier, we split up the pages amongst ourselves and individually polished. Being able to create different branches made this process painless and efficient. We finally (kind of) appreciate git and version control. </p>
+<p>Anthony, our resident design expert, handled much of the CSS for our website. The trickiest part was importing the Yale font into all of the pages and making sure the page formats were fairly uniform. We also ran through many iterations of how our homepage should look to get a good combination of a nice background picture and readability for the page elements. We are satisfied with the compromise we came up with. The other CSS elements (especially the images/gifs) added much needed depth and character to our pages, making our website more exciting as a whole.</p>
+<p>All in all, we are proud of our end product.</p>
+<h3>A/B Testing Report</h3>
+<p><strong>RSVP Experiment</strong></p>
+<p>We conducted two variations of A/B testing. In the first, we tested to see if asking visitors to RSVP on our homepage would increase event detail page views. The data is below:</p>
+<img src="http://i.imgur.com/Eq2SIXy.png"></a>
+<p>The data shows very little difference between the variations. The page with RSVP links has a 53% chance of outperforming the original page: about what might be expected from a completely random sample from two identical pages. Over roughly 300 sessions, there is no discernible design conclusion; the RSVP text has little to no effect.</p>
+<p><strong>Donation Experiment</strong></p>
+<p>The second A/B test had us test whether asking users to “Please” donate would increase the number of donations for a given event.  The data is below:</p>
+<img src="http://i.imgur.com/jo1aTYS.png"></a>
+<p>This round of A/B testing was more conclusive. Variation 1, which asked users to “Please Donate” clearly yielded more donation page views, with a 61.4% chance of outperforming the original, a statistically significant increase. In terms of design, this suggests that we should keep the “Please” on our donation links, and, more generally, that adding such pleasantries to our text can generate friendlier and more cooperative user traffic.</p>
+<p><strong>Referral Segmenting</strong></p>
+<p>In terms of user segmenting for the second A/B test, Google Analytics reported these segments for user data. (Note* Our own usage was cropped out of the image).</p>
+<img src="http://i.imgur.com/bcpAjms.png"></a>
+<p>The skew towards yale.edu referrals is related to the link to our site that was posted on the Yale main page on February 16. Despite this massive skew—yale.edu had almost 19 times the referrals of the nearest competitor—its clickthrough rate stood at only 6.71%, giving it a minimal lead in terms of total clickthroughs—48.07%. law.yale.edu, on the other hand, had an impressive clickthrough rate of 85.39%, making up 32.62% total clickthrough completions, despite only being responsible for 4.58% of the traffic. While quite similar to law in terms of total referrals, som.yale.edu was relatively stingy in comparison, with a clickthrough rate of 35.71%, making up 12.88% of the total clickthroughs—typical business students. While only contributing 1.18% of total visits, divinity.yale.edu had a clickthrough rate of 43.48%, making up 4.29% of total clickthroughs. medicine.yale.edu had a minimal impact with 7 total pageviews and 1 clickthrough. search.yale.edu resulted in 10 pageviews and 0 clickthroughs. As a result of this experiment we have learned that, despite popular opinion, lawyers are, in fact, the best kind of people.</p>
+<h3>Retrospective</h3>
+<p>The past three weeks spent working on this project was a great learning experience on multiple levels. First, we went from mimicking agile scrum strategy to actually using it. During the first week, we did not do standup meetings properly and did not come up with a story log for the week beforehand. Rather, we met infrequently (basically during class) and added stories as we went. By the final week, we would meet everyday during lunch, at the very least via text, and were always up to date on the progress/trajectory of the other team members. Also, with the second week, we started to have a major meeting every Wednesday to decide on what the overall stories for the week were (deciding on a workload based on how many story points we handled the week before). Similarly, in the beginning we used git and version control only because we had to. As the weeks went on and we started to pick up on how to use it, we started to use git to efficiently work as a team. On top of all of this, we learned about a lot of cool and useful code and became much better at implementing it. </p>
+<p>One thing to improve on in future projects would be coordinating so we can work together more often. We found that working in one place was the best way to get the most out of the work we were putting in. The benefits include being able to help each other when we are stuck and everyone learning at least a little about the code that we were individually working on. </p>
 </html>
